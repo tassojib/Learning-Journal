@@ -1,0 +1,44 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+header{
+    background: #fff;
+    
+    justify-content: space-between;
+  
+}
+header,
+.logo, 
+nav ul{
+    display: flex;
+}
+.logo,
+nav ul{
+    align-items: center;
+}
+.logo p, li{
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.logo img{
+    width: 24px;
+    height: 24px;
+}
+.hero{
+    background-image: url('images/image-hero.png');
+    background-size: cover;
+}
+main{
+    padding: 5px;
+    background-color: red;
+}
